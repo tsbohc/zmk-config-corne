@@ -75,10 +75,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE  &kp N1             &kp N2       &kp N3        &kp N4        &kp N5          &kp LESS_THAN         &kp GT                 &kp AMPS    &kp PIPE   &kp STAR       &kp BACKSLASH
-&trans     &mt LGUI NUMBER_6  &mt LALT N7  &mt LSHFT N8  &mt LCTRL N9  &kp NUMBER_0    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS    &kp MINUS  &kp SEMICOLON  &kp SINGLE_QUOTE
-&trans     &kp EXCLAMATION    &kp AT_SIGN  &kp HASH      &kp DOLLAR    &kp PERCENT     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL   &kp UNDER  &kp SLASH      &kp CARET
-                                           &trans        &trans        &trans          &trans                &mo 4                  &kp DELETE
+&kp GRAVE   &kp N1             &kp N2       &kp N3        &kp N4        &kp N5          &kp LESS_THAN         &kp GT                 &kp AMPS    &kp PIPE   &kp STAR       &kp BACKSLASH
+&caps_word  &mt LGUI NUMBER_6  &mt LALT N7  &mt LSHFT N8  &mt LCTRL N9  &kp NUMBER_0    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS    &kp MINUS  &kp SEMICOLON  &kp SINGLE_QUOTE
+&trans      &kp EXCLAMATION    &kp AT_SIGN  &kp HASH      &kp DOLLAR    &kp PERCENT     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL   &kp UNDER  &kp CARET      &kp RG(SPACE)
+                                            &trans        &trans        &trans          &trans                &mo 4                  &kp DELETE
             >;
         };
 
@@ -99,9 +99,9 @@
 
         BLT {
             bindings = <
-&none       &none         &none         &none         &trans        &none           &none   &none   &none   &none   &none  &none
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none   &none   &none   &trans  &none  &bt BT_CLR_ALL
-&none       &none         &none         &none         &none         &none           &none   &none   &none   &none   &none  &none
+&none       &none         &none         &none         &none         &none           &none   &none   &none   &none  &none  &none
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none   &none   &none   &none  &none  &bt BT_CLR_ALL
+&none       &none         &none         &none         &none         &none           &none   &none   &none   &none  &none  &none
                                         &trans        &trans        &trans          &trans  &trans  &trans
             >;
         };
