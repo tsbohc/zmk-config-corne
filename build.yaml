@@ -18,9 +18,9 @@
 #
 ---
 include:
-  - board: nice_nano@2.0.0
+  - board: nice_nano@2.0.0//zmk
     shield: corne_left
-  - board: nice_nano@2.0.0
+  - board: nice_nano@2.0.0//zmk
     shield: corne_right
-  - board: nice_nano@2.0.0
+  - board: nice_nano@2.0.0//zmk
     shield: settings_reset
